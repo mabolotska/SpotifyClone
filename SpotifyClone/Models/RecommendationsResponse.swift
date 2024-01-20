@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+struct RecommendationsModel: Codable {
+    let tracks: [AudioTrack]
+}

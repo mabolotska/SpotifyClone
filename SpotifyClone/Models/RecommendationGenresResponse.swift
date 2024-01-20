@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct RecommendedGenreModel: Codable {
+    let genres: [String]
+}
